@@ -14,4 +14,4 @@ def input_to_index(string)
 int=string.to_i-1
 end
 
-def move(board,int,)
+def move(board,int,"X")
