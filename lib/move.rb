@@ -15,5 +15,5 @@ int=string.to_i-1
 end
 
 def move(board,int,symbol="X")
-
+board[int]=symbol
 end
