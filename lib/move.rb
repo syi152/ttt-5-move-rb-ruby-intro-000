@@ -11,6 +11,6 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(string)
-int=gets.strip.to_i
+int=string.to_i
 array=boards[int]
 end
