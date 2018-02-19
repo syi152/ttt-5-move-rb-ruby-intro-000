@@ -1,7 +1,7 @@
 def display_board(board)
   puts"Welcome to Tic Tac Toe!"
   puts"where would you like to go?"
-  input=gets.strip.to_i
+  input=input_to_index(gets.strip)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
   puts " #{board[3]} | #{board[4]} | #{board[5]} "
@@ -11,7 +11,6 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(string)
-puts"where would you move?"
 int=gets.strip.to_i
 array=boards[int]
 end
