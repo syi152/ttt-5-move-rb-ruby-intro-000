@@ -9,3 +9,8 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
+def input_to_index(string)
+puts"where would you move?"
+int=gets.strip.to_i
+array=boards[int]
+end
